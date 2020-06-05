@@ -1,3 +1,5 @@
+import MyReact from '../MyReact/MyReact'
+
 class ColorSwatch extends MyReact.Component {
     render() {
         const red = this.props.number % 256;
